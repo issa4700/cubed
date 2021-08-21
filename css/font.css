@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "OpenSansPX";
+  src: url("/font/OpenSansPX.ttf");
+  src: url("/font/OpenSansPXBold.ttf");
+}
+
+.custom-font {
+  font-family: "OpenSansPX", "Courier New", Courier, monospace;
+}
