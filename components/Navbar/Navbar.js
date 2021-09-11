@@ -14,7 +14,6 @@ export default function Navbar() {
   const router = useRouter();
   useEffect(() => {
     setToggle(false);
-    console.log(toggle);
   }, [router.pathname]);
 
   return (
