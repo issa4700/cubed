@@ -68,7 +68,7 @@ export default function Navbar() {
       {/* Mobile Nav */}
       <div className={`${toggle ? "" : "hidden"} relative z-50`}>
         <div className="fixed inset-0 bg-gray-800 opacity-25"></div>
-        <nav className="fixed top-0 left-0 bottom-0 flex flex-col w-full max-w-sm py-6 px-6 bg-white border-r overflow-y-auto">
+        <nav className="fixed top-0 left-0 bottom-0 flex flex-col w-full max-w-sm py-4 px-6 bg-white border-r overflow-y-auto">
           <div className="flex items-center mb-8 justify-between">
             <Logo logoURL={logo} />
             <button onClick={() => setToggle(!toggle)}>
