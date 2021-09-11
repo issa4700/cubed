@@ -7,7 +7,7 @@ module.exports = {
     logo: "/images/logo/cube-logos_black.png",
 
     // Label and link of button
-    CTA: { label: "Vote Now!", href: "#" },
+    CTA: { enabled: false, label: "Whitelist", href: "#" },
   },
 
   /**
@@ -49,4 +49,47 @@ module.exports = {
   server: {
     ip: "pessu.xyz",
   },
+
+  /**
+   * ABOUT US PAGE SETTINGS
+   * Configure content for the about page here.
+   */
+  team: [
+    {
+      name: "singulrty",
+      role: "System Administrator",
+    },
+    {
+      name: "Baconhead_",
+      role: "Platinum Sponsor",
+    },
+    {
+      name: "Zulixs",
+      role: "Community Ambassador",
+    },
+    {
+      name: "izet1108",
+      role: "Supporter",
+    },
+    {
+      name: "Malinkijs",
+      role: "Supporter",
+    },
+    {
+      name: "Zupa_13",
+      role: "Supporter",
+    },
+    {
+      name: "BelugaWhale_26",
+      role: "Supporter",
+    },
+    {
+      name: "Historian_Jon",
+      role: "Supporter",
+    },
+    {
+      name: "Stealthdragon60",
+      role: "Supporter",
+    },
+  ],
 };
