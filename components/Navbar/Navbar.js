@@ -18,7 +18,7 @@ export default function Navbar() {
   }, [router.pathname]);
 
   return (
-    <section className="py-6">
+    <section className="py-4">
       <div className="container px-6 mx-auto">
         <nav>
           <div className="flex justify-between items-center">
@@ -57,7 +57,7 @@ export default function Navbar() {
             <div className="hidden lg:flex items-center space-x-4">
               {nav?.playerCount && <PlayerCount />}
               <div className="hidden lg:block">
-                {nav?.CTAButton && (
+                {nav?.CTAButton?.enabled && (
                   <CTAButton label={CTA.label} href={CTA.href} />
                 )}
               </div>
@@ -98,7 +98,7 @@ export default function Navbar() {
           </div>
           <div className="mt-auto">
             <div className="pt-6">
-              {nav?.CTAButton && (
+              {nav?.CTAButton?.enabled && (
                 <CTAButton label={CTA.label} href={CTA.href} mobile={true} />
               )}
             </div>
