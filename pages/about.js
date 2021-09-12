@@ -7,6 +7,10 @@ export default function About() {
     <>
       <Head>
         <title>About Us - {meta.SiteName}</title>
+        <meta
+          name="description"
+          content="Meet the people who keep the server up and running."
+        />
       </Head>
       <Team team={team} />
     </>

@@ -71,7 +71,7 @@ export default function Navbar() {
         <nav className="fixed top-0 left-0 bottom-0 flex flex-col w-full max-w-sm py-4 px-6 bg-white border-r overflow-y-auto">
           <div className="flex items-center mb-8 justify-between">
             <Logo logoURL={logo} />
-            <button onClick={() => setToggle(!toggle)}>
+            <button onClick={() => setToggle(!toggle)} name="toggle">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-6 w-6"

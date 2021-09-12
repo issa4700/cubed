@@ -8,6 +8,10 @@ export default function Map() {
     <>
       <Head>
         <title>Interactive Map</title>
+        <meta
+          name="description"
+          content="View a live map of the server and its players."
+        />
       </Head>
       <section className="">
         <Iframe

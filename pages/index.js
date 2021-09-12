@@ -10,6 +10,10 @@ export default function Home() {
     <>
       <Head>
         <title>{meta.SiteName}</title>
+        <meta
+          name="description"
+          content="Cube Survival is an invite-only surivial SMP spawned from a group of dedicated players."
+        />
       </Head>
       <Hero />
       <About />
