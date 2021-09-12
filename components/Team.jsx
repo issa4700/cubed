@@ -9,9 +9,7 @@ export default function Team({ team }) {
             Our Team
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical
-            gentrify, subway tile poke farm-to-table. Franzen you probably
-            haven't heard of them.
+            Meet the amazing people who keep the server up and running.
           </p>
         </div>
         <div className="flex flex-wrap -m-2">

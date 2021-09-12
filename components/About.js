@@ -16,18 +16,17 @@ export default function About() {
       <div className="relative overflow-hidden container mx-auto py-32 px-6 lg:px-4">
         <div className="relative flex flex-col lg:flex-row lg:space-x-20 space-y-12  text-center lg:text-left">
           <div className="w-full lg:w-1/2 space-y-5">
-            <h1 className="text-3xl lg:text-5xl font-bold">
+            <h1 className="text-3xl lg:text-4xl font-bold">
               About <span className="text-pink-500">Cube Anarchy</span>
             </h1>
-            <p className="text-lg lg:text-xl text-gray-500 max-w-prose leading-relaxed">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde
-              totam ex odit veniam cum illo exercitationem, eligendi a molestiae
-              cupiditate reprehenderit distinctio est modi nemo sequi dolorum
-              in, eaque esse? Quos facere voluptatem distinctio magnam fuga
-              laborum illo, vitae rerum nobis provident harum quia cum,
-              voluptates aspernatur consequatur voluptas eaque eligendi
-              blanditiis nesciunt laudantium quaerat saepe asperiores assumenda
-              velit? Repellat.
+            <p className="text-lg text-gray-600 max-w-prose leading-relaxed">
+              Cube began an as tight-knit community enthusiastic about a vanilla
+              gameplay experience and wanted to play on a server without the
+              overhead of operating a public server. Cube has since grown from a
+              whitelisted only server to now an invite-only server where new
+              players are vetted by current players. Currently, our network only
+              features vanilla SMP, but we routinely get community feedback to
+              improve and introduce new gameplay mechanics into the network.
             </p>
           </div>
           <div className="w-full lg:w-1/2 flex flex-col space-y-6 my-auto text-2xl">

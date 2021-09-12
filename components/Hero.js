@@ -14,18 +14,17 @@ export default function Hero() {
           />
         </div>
         <div className="lg:flex-grow lg:max-w-lg lg:w-full md:w-1/2 w-5/6 md:pr-4 flex-col lg:items-start md:text-right mb-6 md:mb-0 mt-8 lg:-mt-36 items-center text-center lg:space-y-12">
-          <h1 className="lg:text-6xl text-3xl mb-4 font-bold text-gray-900">
-            The Ultimate Anarchy Server
+          <h1 className="lg:text-5xl text-3xl mb-4 font-bold text-gray-900">
+            The exclusive survival experience
           </h1>
           <p className="mb-8 leading-relaxed text-gray-500 text-xl">
-            We are a whitelisted anarchy server with an{" "}
-            <span className="text-pink-500">infinite world</span> and{" "}
-            <span className="text-pink-500">no rules</span>. We only have one
-            exception: no lag machines.
+            We are an invite-only survival server with an{" "}
+            <span className="text-pink-500">infinite world</span> and a{" "}
+            <span className="text-pink-500">dedicated player base</span>.
           </p>
           <div className="flex flex-col-reverse md:flex-row justify-center md:justify-end md:space-x-4">
             <button className="font-medium text-sm px-5 lg:text-base py-4 lg:px-8 lg:py-4 text-gray-500 hover:text-gray-700 transition ease-in-out">
-              Apply for Whitelist
+              Account Registration
             </button>
             <Link href="#about">
               <button className="text-gray-900 uppercase font-medium text-sm px-5 lg:text-base py-4 lg:px-8 lg:py-4 bg-yellow-300 hover:bg-yellow-400 transition ease-in-out">

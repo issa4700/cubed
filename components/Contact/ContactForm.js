@@ -48,8 +48,7 @@ export default function ContactForm() {
           Submit
         </button>
         <p className="text-xs text-gray-500 mt-3">
-          Chicharrones blog helvetica normcore iceland tousled brook viral
-          artisan.
+          We only use your email for communication purposes. We hate spam too!
         </p>
       </div>
     </div>

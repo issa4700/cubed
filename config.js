@@ -1,7 +1,7 @@
 module.exports = {
   meta: {
     // Title of website
-    SiteName: "Cube Anarchy Server",
+    SiteName: "Cube Survival",
 
     // Location of logo. (All files should be in the 'public' folder)
     logo: "/images/logo/cube-logos_black.png",
