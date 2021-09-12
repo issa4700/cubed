@@ -37,6 +37,18 @@ module.exports = {
       { name: "Map", href: "/map" },
       { name: "Contact", href: "/contact" },
     ],
+
+    /** SOCIAL LINKS
+     * Add your links to your social media pages here. Links are formatted as
+     * [PROVIDER]: [LINK]
+     *
+     * Current providers supported are Facebook, Twitter, and Instagram.
+     */
+    socials: {
+      facebook: "",
+      twitter: "",
+      instagram: "",
+    },
   },
 
   /**
